@@ -55,23 +55,23 @@
  background: #51c5de;
 }
 
-.tarefas .li .edit {
+.tarefas li .edit {
   margin-right: 15px;
   background: #51c5de;
 }
 
-.tarefas .li .delete {
+.tarefas li .delete {
   margin-right: 15px;
   background: #f04c64;
 }
 
-.tarefas .li:hover .edit,
-.tarefas .li:hover .delete {
+.tarefas li:hover .edit,
+.tarefas li:hover .delete {
   color: #000;
 }
 
-.tarefas .li .edit,
-.tarefas .li .delete {
+.tarefas li .edit,
+.tarefas li .delete {
   cursor: pointer;
   transition: all 600ms;
 }
